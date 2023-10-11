@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #deb887;
+    
+}
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: #eb2632;
+  
+}
+
+li{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+    }
+
+
+#menu ul li{
+    padding: 10px 20px;
+    display: inline-block;
+
+}
+
+ul{
+    padding-left: 20px;
+    padding-top: 7px;
+
+    
+}
+
+.losango{
+transform: rotate(45deg);
+display: block;
+width: 150px;
+height: 150px;
+}
+
+.losango:hover{
+    
+    display: block;
+    size: 60%;
+    width: 250px;
+    height: 250px;
+    }
+
+#conteudo{
+    display: flex;
+    justify-content: center;
+    }
+
+p, h2{
+    text-align: center;
+}
+
+a, h2{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: #cd5c5c;
+    
+}
